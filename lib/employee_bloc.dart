@@ -37,7 +37,7 @@ class EmployeeBloc {
       _employeeSalaryIncreementStreamController.sink;
 
   StreamSink<Employee> get employeeSalaryDecreement =>
-      _employeeSalaryIncreementStreamController.sink;
+      _employeeSalaryDicreementStreamController.sink;
 
   EmployeeBloc() {
     _employeelistStreamController.add(_employeeList);
